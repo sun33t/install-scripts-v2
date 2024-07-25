@@ -43,3 +43,17 @@ plugins=(
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/sun33t/install-scripts-v2/main/install-brew.sh)"
 ```
+
+6. Install fnm
+
+```bash
+curl -fsSL https://fnm.vercel.app/install | bash
+
+(echo; echo 'eval "$(fnm env)"') >> /Users/$(whoami)/.zshrc
+```
+
+7. Install pnpm
+
+```bash
+curl -fsSL https://get.pnpm.io/install.sh | sh -
+```
