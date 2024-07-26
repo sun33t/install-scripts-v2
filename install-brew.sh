@@ -7,6 +7,7 @@ brew update && brew doctor
 # use brew to install tools and applications
 
 CLIS=(
+  ffmpeg
   git
   tree
   zsh
