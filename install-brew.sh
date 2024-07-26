@@ -40,6 +40,7 @@ CASKS=(
   ollama
   postman
   raycast
+  slack
   spotify
   transmission
   visual-studio-code
