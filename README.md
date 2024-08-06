@@ -63,7 +63,7 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
 ```
 
 8. Setup .gitconfig
-   The SSH key for authorising commits is being managed by 1Password so find the they there and follow instructions for setting it up. In addition, set the following git settings:
+   The SSH key for authorising commits is being managed by 1Password so find the key there and follow instructions for setting it up. In addition, set the following git settings:
 
 ```bash
 git config --global user.name "<NAME>"
