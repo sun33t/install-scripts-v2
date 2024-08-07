@@ -22,16 +22,27 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ```sh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+```sh
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
+```
+
+```sh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
 
 # Add the following to your .zshrc file:
+
 plugins=(
-        git
-        zsh-syntax-highlighting
-        zsh-autosuggestions
-        zsh-completions
-        )
+git
+zsh-syntax-highlighting
+zsh-autosuggestions
+zsh-completions
+)
+
+```sh
+source .zshrc
 ```
 
 4. Install brew
@@ -40,6 +51,10 @@ plugins=(
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/$(whoami)/.zshrc
+```
+
+```sh
+source .zshrc
 ```
 
 5. Install apps and tools with brew
