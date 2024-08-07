@@ -15,10 +15,8 @@ CLIS=(
 
 CASKS=(
   1password
-  ankerwork
   appcleaner
   arc
-  betterdisplay
   brave-browser
   devonthink
   discord

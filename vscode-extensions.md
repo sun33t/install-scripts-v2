@@ -1,3 +1,6 @@
+# vscode extensions
+
+```sh
 aaron-bond.better-comments
 astro-build.astro-vscode
 bradgashler.htmltagwrap
@@ -36,3 +39,4 @@ vscode-icons-team.vscode-icons
 vsls-contrib.gistfs
 yoavbls.pretty-ts-errors
 yzhang.markdown-all-in-one
+```
