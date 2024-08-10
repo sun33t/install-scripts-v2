@@ -28,6 +28,7 @@ CASKS=(
   google-chrome
   handbrake
   iterm2
+  kap
   keyboardcleantool
   linear-linear
   logi-options-plus
