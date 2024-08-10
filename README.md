@@ -88,3 +88,5 @@ git config --global init.defaultBranch "<new-branch-name>"
 
 9.  Setup ~/.ssh/config
     The SSH key for authorising the dev environment with your Github account is being managed by 1Password. Find the key there and follow the instructions for setting it up.
+
+10. [Further setup options](https://youtu.be/GK7zLYAXdDs?si=6rtzR-sUi7b0AgCx)
