@@ -17,6 +17,7 @@ CASKS=(
   1password
   appcleaner
   arc
+  arq
   brave-browser
   devonthink
   discord
