@@ -1,6 +1,7 @@
 # vscode extensions
 
 ```sh
+1password.op-vscode
 aaron-bond.better-comments
 astro-build.astro-vscode
 bradgashler.htmltagwrap
