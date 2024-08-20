@@ -40,6 +40,7 @@ CASKS=(
   numi
   obsidian
   ollama
+  onyx
   postman
   raycast
   slack
