@@ -90,4 +90,4 @@ git config --global init.defaultBranch "<new-branch-name>"
     The SSH key for authorising the dev environment with your Github account is being managed by 1Password. Find the key there and follow the instructions for setting it up.
 
 10. [Further setup options](https://youtu.be/GK7zLYAXdDs?si=6rtzR-sUi7b0AgCx)
-11. Use the continue documentation to locate the storage location for the `continue-config.json` file.
+11. Return config files located within the [config-backups](/config-backups/) directory to their original locations.
