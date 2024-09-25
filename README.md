@@ -76,8 +76,14 @@ curl -fsSL https://fnm.vercel.app/install | bash
 ```bash
 curl -fsSL https://get.pnpm.io/install.sh | sh -
 ```
+8. Install deno
 
-8. Setup .gitconfig
+```bash
+curl -fsSL https://deno.land/install.sh | sh
+
+```
+
+9.  Setup .gitconfig
    The SSH key for authorising commits is being managed by 1Password so find the key there and follow instructions for setting it up. In addition, set the following git settings:
 
 ```bash
@@ -86,8 +92,8 @@ git config --global user.email "<EMAIL>"
 git config --global init.defaultBranch "<new-branch-name>"
 ```
 
-9.  Setup ~/.ssh/config
+10.  Setup ~/.ssh/config
     The SSH key for authorising the dev environment with your Github account is being managed by 1Password. Find the key there and follow the instructions for setting it up.
 
-10. [Further setup options](https://youtu.be/GK7zLYAXdDs?si=6rtzR-sUi7b0AgCx)
-11. Return config files located within the [config-backups](/config-backups/) directory to their original locations.
+11. [Further setup options](https://youtu.be/GK7zLYAXdDs?si=6rtzR-sUi7b0AgCx)
+12. Return config files located within the [config-backups](/config-backups/) directory to their original locations.
