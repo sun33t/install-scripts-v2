@@ -23,6 +23,7 @@ CASKS=(
   devonthink
   discord
   docker
+  expressvpn
   figma
   firefox
   font-fira-code-nerd-font
@@ -30,6 +31,7 @@ CASKS=(
   google-chrome
   handbrake
   iterm2
+  jordanbaird-ice
   kap
   keyboardcleantool
   linear-linear

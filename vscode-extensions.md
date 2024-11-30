@@ -7,8 +7,10 @@ astro-build.astro-vscode
 bradgashler.htmltagwrap
 bradlc.vscode-tailwindcss
 chakrounanas.turbo-console-log
+ckolkman.vscode-postgres
 continue.continue
 dbaeumer.vscode-eslint
+denoland.vscode-deno
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
 equinusocio.vsc-material-theme-icons
@@ -31,10 +33,15 @@ ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.live-server
 ms-vscode.remote-explorer
 ms-vscode.remote-server
+mylesmurphy.prettify-ts
+nur.just-black
 orta.vscode-twoslash-queries
 pkief.material-icon-theme
+pmndrs.pmndrs
+postman.postman-for-vscode
 redhat.vscode-yaml
 ritwickdey.liveserver
+unifiedjs.vscode-mdx
 vitest.explorer
 vscode-icons-team.vscode-icons
 vsls-contrib.gistfs
