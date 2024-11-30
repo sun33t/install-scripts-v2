@@ -95,5 +95,8 @@ git config --global init.defaultBranch "<new-branch-name>"
 10.  Setup ~/.ssh/config
     The SSH key for authorising the dev environment with your Github account is being managed by 1Password. Find the key there and follow the instructions for setting it up.
 
-11. [Further setup options](https://youtu.be/GK7zLYAXdDs?si=6rtzR-sUi7b0AgCx)
-12. Return config files located within the [config-backups](/config-backups/) directory to their original locations.
+11. Install [OpenWebUI](https://github.com/open-webui/open-webui)
+12. Import ScanSnap profiles
+
+13. [Further setup options](https://youtu.be/GK7zLYAXdDs?si=6rtzR-sUi7b0AgCx)
+14. Return config files located within the [config-backups](/config-backups/) directory to their original locations.

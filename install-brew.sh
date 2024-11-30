@@ -26,13 +26,14 @@ CASKS=(
   figma
   firefox
   font-fira-code-nerd-font
+  fujitsu-scansnap-home
   google-chrome
   handbrake
   iterm2
   kap
   keyboardcleantool
   linear-linear
-  logi-options-plus
+  logi-options+
   microsoft-auto-update
   microsoft-edge
   microsoft-teams
@@ -41,6 +42,7 @@ CASKS=(
   obsidian
   ollama
   onyx
+  parallels
   postman
   raycast
   slack

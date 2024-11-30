@@ -4,8 +4,8 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSaveMode": "file",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.formatOnSaveMode": "file",
   "editor.fontFamily": "FiraCode Nerd Font",
   "editor.fontLigatures": true,
   "editor.fontSize": 12,
@@ -46,5 +46,9 @@
   "editor.inlineSuggest.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.inlineSuggest.suppressSuggestions": true,
-  "continue.enableQuickActions": true
+  "continue.enableQuickActions": true,
+  "workbench.externalBrowser": "chrome",
+  "gitlens.advanced.messages": {
+    "suppressIntegrationRequestTimedOutWarning": true
+  }
 }
