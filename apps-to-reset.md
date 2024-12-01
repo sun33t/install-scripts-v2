@@ -7,4 +7,4 @@
 - ExpressVPN
 - Arq Backup
 - Parallels Desktop
-- ScanSnap Home (export profiles to file)
+- ScanSnap Home **export profiles to file**
