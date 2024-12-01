@@ -41,7 +41,6 @@ CASKS=(
   microsoft-teams
   notion
   numi
-  obsidian
   ollama
   onyx
   parallels
@@ -52,7 +51,6 @@ CASKS=(
   transmission
   visual-studio-code
   vlc
-  warp
   whatsapp
   zoom
 )
