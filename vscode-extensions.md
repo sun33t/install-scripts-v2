@@ -1,13 +1,10 @@
 # vscode extensions
 
 ```sh
-1password.op-vscode
 aaron-bond.better-comments
 astro-build.astro-vscode
 bradgashler.htmltagwrap
 bradlc.vscode-tailwindcss
-chakrounanas.turbo-console-log
-ckolkman.vscode-postgres
 continue.continue
 dbaeumer.vscode-eslint
 denoland.vscode-deno
@@ -23,7 +20,6 @@ hashicorp.terraform
 mhutchie.git-graph
 mikestead.dotenv
 ms-azuretools.vscode-docker
-ms-dotnettools.vscode-dotnet-runtime
 ms-playwright.playwright
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
@@ -37,7 +33,6 @@ mylesmurphy.prettify-ts
 nur.just-black
 orta.vscode-twoslash-queries
 pkief.material-icon-theme
-pmndrs.pmndrs
 postman.postman-for-vscode
 redhat.vscode-yaml
 ritwickdey.liveserver
