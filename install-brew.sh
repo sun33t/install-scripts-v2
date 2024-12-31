@@ -28,9 +28,9 @@ CASKS=(
   firefox
   font-fira-code-nerd-font
   fujitsu-scansnap-home
+  ghostty
   google-chrome
   handbrake
-  iterm2
   jordanbaird-ice
   kap
   keyboardcleantool
