@@ -17,18 +17,16 @@ CLIS=(
 CASKS=(
   1password
   appcleaner
-  arc
   arq
   brave-browser
   devonthink
-  discord
   docker
   expressvpn
   figma
-  firefox
   font-fira-code-nerd-font
   fujitsu-scansnap-home
   ghostty
+  gifox
   google-chrome
   handbrake
   jordanbaird-ice
@@ -36,20 +34,20 @@ CASKS=(
   keyboardcleantool
   linear-linear
   logi-options+
-  microsoft-auto-update
-  microsoft-edge
-  microsoft-teams
   notion
+  notion-calendar
+  notion-mail
   numi
+  obsidian
   ollama
   onyx
   parallels
+  plex
   postman
   raycast
   slack
-  spotify
   transmission
-  visual-studio-code
+  visual-studio-code@insiders
   vlc
   whatsapp
   zoom
