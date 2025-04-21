@@ -18,6 +18,8 @@
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
   "extensions.ignoreRecommendations": true,
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.parameterNames.enabled": "all",
   "javascript.inlayHints.parameterTypes.enabled": true,
@@ -30,6 +32,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
   "terminal.integrated.inheritEnv": true,
+  "typescript.autoClosingTags": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.parameterTypes.enabled": true,
@@ -50,5 +53,8 @@
   "workbench.externalBrowser": "chrome",
   "gitlens.advanced.messages": {
     "suppressIntegrationRequestTimedOutWarning": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

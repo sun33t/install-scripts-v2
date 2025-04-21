@@ -1,0 +1,8 @@
+# Place this file within ~/.config/ghostty/
+
+theme = "Abernathy"
+font-family = FiraCode Nerd Font Mono Reg
+window-padding-x = 20
+window-padding-y = 10
+working-directory = /Users/suneet/
+quit-after-last-window-closed = true
