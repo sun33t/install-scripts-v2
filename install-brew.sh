@@ -21,7 +21,6 @@ CASKS=(
   brave-browser
   devonthink
   docker
-  expressvpn
   figma
   font-fira-code-nerd-font
   fujitsu-scansnap-home
@@ -34,9 +33,8 @@ CASKS=(
   keyboardcleantool
   linear-linear
   logi-options+
+  nordvpn
   notion
-  notion-calendar
-  notion-mail
   numi
   obsidian
   ollama
@@ -47,7 +45,7 @@ CASKS=(
   raycast
   slack
   transmission
-  visual-studio-code@insiders
+  visual-studio-code
   vlc
   whatsapp
   zoom
