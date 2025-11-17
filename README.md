@@ -2,7 +2,11 @@
 
 ## Description
 
-This is a placeholder description
+Steps to follow when reinstalling macos.
+
+## Create Bootable Install
+
+Follow the instructions [here](https://support.apple.com/en-gb/101578) to create and use a bootable installer to reinstall the latest version of macos.
 
 ## Order of Execution
 
