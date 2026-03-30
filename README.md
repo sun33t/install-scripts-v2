@@ -93,4 +93,12 @@ git config --global init.defaultBranch "<new-branch-name>"
 
 12. Restore any files/folders to home directory.
 
-13. [Further setup options](https://youtu.be/GK7zLYAXdDs?si=6rtzR-sUi7b0AgCx)
+13. Install claude code
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+Also, install the relevant mcp servers (e.g. ref.tools, figma mcp)
+
+14. [Further setup options](https://youtu.be/GK7zLYAXdDs?si=6rtzR-sUi7b0AgCx)

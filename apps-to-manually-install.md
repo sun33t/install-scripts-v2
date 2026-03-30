@@ -8,6 +8,7 @@
 ## Mac App Store
 
 - amphetamine
+- blusky
 - mela
 - photomator
 - pixelmator pro

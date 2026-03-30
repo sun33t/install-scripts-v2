@@ -18,6 +18,7 @@ CASKS=(
   1password
   appcleaner
   brave-browser
+  cmux
   devonthink
   docker
   figma
@@ -43,6 +44,7 @@ CASKS=(
   raycast
   slack
   transmission
+  utm
   visual-studio-code
   vlc
   whatsapp
