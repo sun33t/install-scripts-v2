@@ -10,14 +10,13 @@ CLIS=(
   1password-cli
   ffmpeg
   git
-  tree
+  gh
   zsh
 )
 
 CASKS=(
   1password
   appcleaner
-  arq
   brave-browser
   devonthink
   docker
@@ -25,7 +24,6 @@ CASKS=(
   font-fira-code-nerd-font
   fujitsu-scansnap-home
   ghostty
-  gifox
   google-chrome
   handbrake
   jordanbaird-ice

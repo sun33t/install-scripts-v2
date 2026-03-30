@@ -18,13 +18,11 @@
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
   "extensions.ignoreRecommendations": true,
-  "html.autoClosingTags": true,
-  "javascript.autoClosingTags": true,
-  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "javascript.inlayHints.parameterNames.enabled": "all",
-  "javascript.inlayHints.parameterTypes.enabled": true,
-  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "javascript.inlayHints.variableTypes.enabled": false,
+  // "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  // "javascript.inlayHints.parameterNames.enabled": "all",
+  // "javascript.inlayHints.parameterTypes.enabled": true,
+  // "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // "javascript.inlayHints.variableTypes.enabled": false,
   "javascript.suggestionActions.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "prettier.requireConfig": false,
@@ -32,21 +30,18 @@
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
   "terminal.integrated.inheritEnv": true,
-  "typescript.autoClosingTags": true,
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "typescript.inlayHints.parameterNames.enabled": "all",
-  "typescript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "typescript.inlayHints.variableTypes.enabled": false,
+  // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  // "typescript.inlayHints.parameterNames.enabled": "all",
+  // "typescript.inlayHints.parameterTypes.enabled": true,
+  // "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // "typescript.inlayHints.variableTypes.enabled": false,
   "typescript.tsserver.useSyntaxServer": "auto",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "vsicons.dontShowNewVersionMessage": true,
-  "workbench.colorTheme": "GitHub Dark",
   "workbench.editor.labelFormat": "short",
-  "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "none",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "editor.inlineSuggest.enabled": true,
+  // "editor.inlineSuggest.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.inlineSuggest.suppressSuggestions": true,
   "continue.enableQuickActions": true,
@@ -54,7 +49,39 @@
   "gitlens.advanced.messages": {
     "suppressIntegrationRequestTimedOutWarning": true
   },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "GitHub Dark",
+  "githubPullRequests.pullBranch": "never",
+  "hediet.vscode-drawio.resizeImages": null,
+  "continue.enableTabAutocomplete": false,
+  "debug.javascript.autoAttachFilter": "disabled",
+  "github.copilot.enable": {
+    "*": false
+  },
+  "python.analysis.typeCheckingMode": "standard",
+  "amazonQ.telemetry": false,
+  "aws.telemetry": false,
+  "terminal.integrated.env.osx": {
+    "Q_NEW_SESSION": "1"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "claudeCode.preferredLocation": "panel",
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://biomejs.dev": true,
+    "https://ui.shadcn.com/schema.json": true
   }
 }
