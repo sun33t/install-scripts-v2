@@ -29,23 +29,18 @@ xcode-select --install
 
 5. [Install nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
 
-6.  Setup .gitconfig
-    The SSH key for authorising commits is being managed by 1Password so find the key there and follow instructions for setting it up. In addition, set the following git settings:
+6. **Setup ~/.ssh/config**: Within 1Password, activate the SSH Agent from the Settings -> Developer menu. Opt to automatically modify the config file when prompted.
 
-```bash
-git config --global user.name "<NAME>"
-git config --global user.email "<EMAIL>"
-git config --global init.defaultBranch "<new-branch-name>"
-```
-
-8.  Setup ~/.ssh/config
-    The SSH key for authorising the dev environment with your Github account is being managed by 1Password. Find the key there and follow the instructions for setting it up.
+7. **Configure .gitConfig** - Find the ssh key within 1Password and follow the instructions to set up commit signing with it. When prompted, opt to automatically modify the config file. Then within the terminal issue the following to further modify the config file:
+    - `git config --global user.name "<NAME>"`
+    - `git config --global user.email "<EMAIL>"`
+    - `git config --global init.defaultBranch "<new-branch-name>"`
 
 9.  Import ScanSnap profiles
 
 10. Return config files located within the [config-backups](/config-backups/) directory to their original locations.
 
-11. Restore Parallels virtual machines.
+11. Restore UTM virtual machines.
 
 12. Restore any files/folders to home directory.
 
