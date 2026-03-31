@@ -16,64 +16,20 @@ Follow the instructions [here](https://support.apple.com/en-gb/101578) to create
 xcode-select --install
 ```
 
-2. Install oh-my-zsh
+2. [Install oh-my-zsh](https://ohmyz.sh/#install) and associated plugins:
+    - [Install zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
+    - [Install zsh-completions](https://github.com/zsh-users/zsh-completions#oh-my-zsh)
+    - [Install zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+    - Add the following to your .zshrc file: `plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-completions)`
 
-```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
+3. [Install Homebrew](https://brew.sh/)
 
-3. Install oh-my-zsh plugins
+4. Install apps and tools with brew:
+    - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/sun33t/install-scripts-v2/main/install-brew.sh)"`
 
-```sh
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-```
+5. [Install nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
 
-```sh
-git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
-```
-
-```sh
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-```
-
-# Add the following to your .zshrc file:
-
-plugins=(
-git
-zsh-syntax-highlighting
-zsh-autosuggestions
-zsh-completions
-)
-
-```sh
-source .zshrc
-```
-
-4. Install brew
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/$(whoami)/.zshrc
-```
-
-```sh
-source .zshrc
-```
-
-5. Install apps and tools with brew
-
-```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/sun33t/install-scripts-v2/main/install-brew.sh)"
-```
-
-6. Install nvm
-
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
-```
-
-7.  Setup .gitconfig
+6.  Setup .gitconfig
     The SSH key for authorising commits is being managed by 1Password so find the key there and follow instructions for setting it up. In addition, set the following git settings:
 
 ```bash
