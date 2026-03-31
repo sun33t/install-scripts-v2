@@ -22,10 +22,10 @@ xcode-select --install
     - [Install zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
     - Add the following to your .zshrc file: `plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-completions)`
 
-3. [Install Homebrew](https://brew.sh/)
+3. [Install Homebrew](https://brew.sh/) and then download the [txt files](./homebrew), edit as you wish and then install with brew:
+    - Download [clis.txt](homebrew/clis.txt) and use `brew install $(cat <path-to-clis.txt>)`.
+    - Download [casks.txt](homebrew/casks.txt) and use `brew install $(cat <path-to-casks.txt>)`.
 
-4. Install apps and tools with brew:
-    - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/sun33t/install-scripts-v2/main/install-brew.sh)"`
 
 5. [Install nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
 

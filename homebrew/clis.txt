@@ -1,0 +1,5 @@
+1password-cli
+ffmpeg
+git
+gh
+zsh
